@@ -1,8 +1,14 @@
-# React + Laravel session auth template
+# Laravel React SPA template
+
+[![CI](https://github.com/lucacermenati/laravel-react-spa-template/actions/workflows/ci.yml/badge.svg)](https://github.com/lucacermenati/laravel-react-spa-template/actions/workflows/ci.yml)
 
 A starting point for a React app that authenticates with a **session cookie** against a Laravel backend running [Fortify](https://laravel.com/docs/fortify). It only contains the authentication and user features; build the app on top of it.
 
 Vite, React, TypeScript, React Router, TanStack Query, React Hook Form, SCSS modules.
+
+## Use it
+
+Click [**Use this template**](https://github.com/lucacermenati/laravel-react-spa-template/generate) to create your own repository from it, with a clean history.
 
 ## Setup
 
