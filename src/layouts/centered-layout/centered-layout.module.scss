@@ -1,0 +1,14 @@
+.page {
+	display: flex;
+	min-height: 100vh;
+	padding: 1rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.box {
+	width: 100%;
+	max-width: 24rem;
+	padding: 1.5rem;
+	border: 1px solid var(--light-gray);
+}

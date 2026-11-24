@@ -1,0 +1,46 @@
+@use './color.scss';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: var(--white);
+	color: var(--black);
+}
+
+h1 {
+	margin: 0 0 1.5rem;
+	font-size: 1.25rem;
+}
+
+p {
+	margin: 0 0 1rem;
+}
+
+a {
+	color: var(--black);
+}
+
+pre {
+	margin: 0;
+	padding: 1rem;
+	border: 1px solid var(--light-gray);
+	overflow-x: auto;
+}
+
+// Secondary text: status messages, hints.
+.muted {
+	color: var(--gray);
+}
+
+// Row of links under a form.
+.links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin-top: 1.5rem;
+	font-size: 0.875rem;
+}
