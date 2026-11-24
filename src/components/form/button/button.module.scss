@@ -1,0 +1,27 @@
+.button {
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--black);
+	font: inherit;
+
+	&:disabled {
+		border-color: var(--gray);
+	}
+}
+
+.primary {
+	background-color: var(--black);
+	color: var(--white);
+
+	&:disabled {
+		background-color: var(--gray);
+	}
+}
+
+.secondary {
+	background-color: var(--white);
+	color: var(--black);
+
+	&:disabled {
+		color: var(--gray);
+	}
+}
